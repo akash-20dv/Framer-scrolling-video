@@ -72,7 +72,7 @@ function App() {
       </h1>
       
       <canvas  width={1000} height={1000} ref={ref} 
-        style={{z-index: 1100}}
+        style={{zIndex: 1100}}
         />
     </div>
   );
