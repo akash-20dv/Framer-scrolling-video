@@ -51,7 +51,7 @@ function App() {
       }}
     >
       <h1 style={{
-        fontSize: 'calc(10vw + 0/5rem)',
+        fontSize: 'font-size: clamp(10vw , 12vw , 14vw)',
         fontWeight: 'bold',
         padding: '20px',
         background: 'linear-gradient(45deg, #ff6b6b, #4ecdc4)',
@@ -68,7 +68,7 @@ function App() {
         Let's create your own websites like Apple
 
        
-        <span style={{fontSize:'3rem' , color: "white" , position: 'relative',}}>scroll Down</span>
+        <span style={{fontSize:'3rem' , color: "white", display: 'block'}}>scroll Down</span>
       </h1>
       
       <canvas  width={1000} height={1000} ref={ref} 
