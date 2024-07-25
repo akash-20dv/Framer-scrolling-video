@@ -60,12 +60,17 @@ function App() {
         position: 'fixed',
         top: 0,
         left: 0,
-        width: '100%',
+        width: '90%',
+        margin:'auto',
         textAlign: 'center',
         zIndex: 1000,
       }}>
         Let's create your own websites like Apple
+
+        <br/> <br/> <br/>
+        <span style={{fontSize:'3rem'}}>scroll Down</span>
       </h1>
+      
       <canvas width={1000} height={1000} ref={ref} />
     </div>
   );
