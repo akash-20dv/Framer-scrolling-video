@@ -67,11 +67,13 @@ function App() {
       }}>
         Let's create your own websites like Apple
 
-        <br/> <br/> <br/>
-        <span style={{fontSize:'3rem'}}>scroll Down</span>
+       
+        <span style={{fontSize:'3rem' , color: "golden-rod" , position: 'relative',}}>scroll Down</span>
       </h1>
       
-      <canvas width={1000} height={1000} ref={ref} />
+      <canvas  width={1000} height={1000} ref={ref} 
+        style={{z-index: 1100}}
+        />
     </div>
   );
 }
